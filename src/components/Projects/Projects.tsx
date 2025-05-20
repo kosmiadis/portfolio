@@ -1,5 +1,50 @@
 import Section from "../ui/Section";
 import Project, { ProjectType } from "./Project";
+import chatAppImg_1 from '/src/assets/chat-app/chat_1.png'; 
+import chatAppImg_2 from '/src/assets/chat-app/chat_2.png'; 
+import chatAppImg_3 from '/src/assets/chat-app/chat_3.png';
+import chatAppImg_4 from '/src/assets/chat-app/chat_4.png';
+import chatAppImg_5 from '/src/assets/chat-app/chat_5.png';
+import chatAppImg_6 from '/src/assets/chat-app/chat_6.png'; 
+import chatAppImg_7 from '/src/assets/chat-app/chat_7.png'; 
+import chatAppImg_8 from '/src/assets/chat-app/chat_8.png';
+import chatAppImg_9 from '/src/assets/chat-app/chat_9.png';
+import chatAppImg_10 from '/src/assets/chat-app/chat_10.png';
+import chalk59Img_1 from '/src/assets/chalk59/chalk59_1.png'; 
+import chalk59Img_2 from '/src/assets/chalk59/chalk59_2.png'; 
+import chalk59Img_3 from '/src/assets/chalk59/chalk59_3.png';
+import chalk59Img_4 from '/src/assets/chalk59/chalk59_4.png';
+import chalk59Img_5 from '/src/assets/chalk59/chalk59_5.png';
+import urlShortImg_1 from '/src/assets/url_shortener/url_1.png';
+import urlShortImg_2 from '/src/assets/url_shortener/url_2.png';
+import urlShortImg_3 from '/src/assets/url_shortener/url_3.png';
+import urlShortImg_4 from '/src/assets/url_shortener/url_4.png';
+import urlShortImg_5 from '/src/assets/url_shortener/url_5.png';
+import urlShortImg_6 from '/src/assets/url_shortener/url_6.png';
+import urlShortImg_7 from '/src/assets/url_shortener/url_7.png';
+import urlShortImg_8 from '/src/assets/url_shortener/url_8.png';
+import urlShortImg_9 from '/src/assets/url_shortener/url_9.png';
+import urlShortImg_10 from '/src/assets/url_shortener/url_10.png';
+import urlShortImg_11 from '/src/assets/url_shortener/url_11.png';
+import urlShortImg_12 from '/src/assets/url_shortener/url_12.png';
+import urlShortImg_13 from '/src/assets/url_shortener/url_13.png';
+import urlShortImg_14 from '/src/assets/url_shortener/url_14.png';
+import urlShortImg_15 from '/src/assets/url_shortener/url_15.png';
+import myLibraryImg_1 from '/src/assets/my_library/library_1.png';
+import myLibraryImg_2 from '/src/assets/my_library/library_2.png';
+import myLibraryImg_3 from '/src/assets/my_library/library_3.png';
+import myLibraryImg_4 from '/src/assets/my_library/library_4.png';
+import myLibraryImg_5 from '/src/assets/my_library/library_5.png';
+import myLibraryImg_6 from '/src/assets/my_library/library_6.png';
+import myLibraryImg_7 from '/src/assets/my_library/library_7.png';
+import renovation_1 from '/src/assets/renovation_site/renovation_1.png';
+import renovation_2 from '/src/assets/renovation_site/renovation_2.png';
+import renovation_3 from '/src/assets/renovation_site/renovation_3.png';
+import renovation_4 from '/src/assets/renovation_site/renovation_4.png';
+import renovation_5 from '/src/assets/renovation_site/renovation_5.png';
+import renovation_6 from '/src/assets/renovation_site/renovation_6.png';
+import renovation_7 from '/src/assets/renovation_site/renovation_7.png';
+import renovation_8 from '/src/assets/renovation_site/renovation_8.png';
 
 
 const PROJECTS: ProjectType[] = [
@@ -10,16 +55,16 @@ const PROJECTS: ProjectType[] = [
         techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Typescript', 'Socket.io'],
         featuredImg: '/src/assets/chat-app/chat_7.png', 
         images: [
-            '/src/assets/chat-app/chat_1.png', 
-            '/src/assets/chat-app/chat_2.png', 
-            '/src/assets/chat-app/chat_3.png',
-            '/src/assets/chat-app/chat_4.png',
-            '/src/assets/chat-app/chat_5.png',
-            '/src/assets/chat-app/chat_6.png', 
-            '/src/assets/chat-app/chat_7.png', 
-            '/src/assets/chat-app/chat_8.png',
-            '/src/assets/chat-app/chat_9.png',
-            '/src/assets/chat-app/chat_10.png',
+            chatAppImg_1,
+            chatAppImg_2,
+            chatAppImg_3,
+            chatAppImg_4,
+            chatAppImg_5,
+            chatAppImg_6,
+            chatAppImg_7,
+            chatAppImg_8,
+            chatAppImg_9,
+            chatAppImg_10
         ],
         github: 'https://github.com/kosmiadis/ChatAppFrontend',
         tags: {
@@ -34,21 +79,21 @@ const PROJECTS: ProjectType[] = [
         techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Typescript'],
         featuredImg: '/src/assets/url_shortener/url_2.png',
         images: [
-            '/src/assets/url_shortener/url_1.png',
-            '/src/assets/url_shortener/url_2.png',
-            '/src/assets/url_shortener/url_3.png',
-            '/src/assets/url_shortener/url_4.png',
-            '/src/assets/url_shortener/url_5.png',
-            '/src/assets/url_shortener/url_6.png',
-            '/src/assets/url_shortener/url_7.png',
-            '/src/assets/url_shortener/url_8.png',
-            '/src/assets/url_shortener/url_9.png',
-            '/src/assets/url_shortener/url_10.png',
-            '/src/assets/url_shortener/url_11.png',
-            '/src/assets/url_shortener/url_12.png',
-            '/src/assets/url_shortener/url_13.png',
-            '/src/assets/url_shortener/url_14.png',
-            '/src/assets/url_shortener/url_15.png',
+            urlShortImg_1,
+            urlShortImg_2,
+            urlShortImg_3,
+            urlShortImg_4,
+            urlShortImg_5,
+            urlShortImg_6,
+            urlShortImg_7,
+            urlShortImg_8,
+            urlShortImg_9,
+            urlShortImg_10,
+            urlShortImg_11,
+            urlShortImg_12,
+            urlShortImg_13,
+            urlShortImg_14,
+            urlShortImg_15,
         ],
         github: 'https://github.com/kosmiadis/short-it',
         tags: {
@@ -63,11 +108,11 @@ const PROJECTS: ProjectType[] = [
         techStack: ['Express.js', 'EJS', 'Node.js'],
         featuredImg: '/src/assets/chalk59/chalk59_1.png', 
         images: [
-            '/src/assets/chalk59/chalk59_1.png', 
-            '/src/assets/chalk59/chalk59_2.png', 
-            '/src/assets/chalk59/chalk59_3.png',
-            '/src/assets/chalk59/chalk59_4.png',
-            '/src/assets/chalk59/chalk59_5.png',
+            chalk59Img_1,
+            chalk59Img_2,
+            chalk59Img_3,
+            chalk59Img_4,
+            chalk59Img_5
         ],
         github: 'https://github.com/kosmiadis/chalk59_website',
         tags: {
@@ -82,13 +127,13 @@ const PROJECTS: ProjectType[] = [
         techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
         featuredImg: '/src/assets/my_library/library_2.png',
         images: [
-            '/src/assets/my_library/library_1.png',
-            '/src/assets/my_library/library_2.png',
-            '/src/assets/my_library/library_3.png',
-            '/src/assets/my_library/library_4.png',
-            '/src/assets/my_library/library_5.png',
-            '/src/assets/my_library/library_6.png',
-            '/src/assets/my_library/library_7.png',
+            myLibraryImg_1,
+            myLibraryImg_2,
+            myLibraryImg_3,
+            myLibraryImg_4,
+            myLibraryImg_5,
+            myLibraryImg_6,
+            myLibraryImg_7
         ],
         github: 'https://github.com/kosmiadis/MyLibrary',
         tags: {
@@ -103,14 +148,14 @@ const PROJECTS: ProjectType[] = [
         techStack: ['React.js', 'TailwindCSS', 'Zustand'],
         featuredImg: '/src/assets/renovation_site/renovation_1.png',
         images: [
-            '/src/assets/renovation_site/renovation_1.png',
-            '/src/assets/renovation_site/renovation_2.png',
-            '/src/assets/renovation_site/renovation_3.png',
-            '/src/assets/renovation_site/renovation_4.png',
-            '/src/assets/renovation_site/renovation_5.png',
-            '/src/assets/renovation_site/renovation_6.png',
-            '/src/assets/renovation_site/renovation_7.png',
-            '/src/assets/renovation_site/renovation_8.png',
+            renovation_1,
+            renovation_2,
+            renovation_3,
+            renovation_4,
+            renovation_5,
+            renovation_6,
+            renovation_7,
+            renovation_8
         ],
         github: 'https://github.com/kosmiadis/Renovation-Site/tree/main',
         tags: {
