@@ -9,7 +9,7 @@ interface ScreenSizeStateI {
     height: number
 }
 
-function screenSizeReducer (state: ScreenSizeStateI, action: ScreenSizeActionI) {
+function screenSizeReducer (_state: ScreenSizeStateI, action: ScreenSizeActionI) {
     if (action.type === 'UPDATE_SCREEN_SIZE') {
         return {
             width: window.innerWidth,
@@ -23,7 +23,8 @@ export function useScreenSize () {
     const [screenSize, dispatch] = useReducer(screenSizeReducer, { width: window.innerWidth, height: window.innerHeight })
 
     useEffect(() => {
-        window.addEventListener('resize', (e) => {
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        window.addEventListener('resize', (_e) => {
             dispatch({ type: 'UPDATE_SCREEN_SIZE' })
         })
     }, [])
