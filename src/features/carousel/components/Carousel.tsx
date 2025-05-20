@@ -1,9 +1,14 @@
-import { Children, ReactNode } from "react"
+import { Children, isValidElement, ReactNode } from "react"
 import CarouselContext from "../store/CarouselContext";
 import ImageSlide from "./ImageSlide";
 
 interface CarouselI {
     children: ReactNode
+}
+
+interface ImageChildProps {
+  src: string;
+  alt?: string;
 }
 
 
@@ -13,6 +18,9 @@ export default function Carousel ({ children }: CarouselI) {
     
     return <CarouselContext slides={slides}>
         {childrenArray.map((child, index) => {
-            return <ImageSlide key={`${index}-${child.props.src}`} index={index} src={child.props.src} alt={''}/>})}
+            if (isValidElement<ImageChildProps>(child)) {
+                return <ImageSlide key={`${index}-${child.props.src}`} index={index} src={child.props.src} alt={''}/>
+            }
+        })}
     </CarouselContext>
 }
