@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Lexend+Deca:wght@100..900&display=swap'); 
+@import "tailwindcss";
+
+body {
+    overflow-x: hidden;
+}
+
+@theme {
+    --color-primary: #F6F7FE; /* ghost white */
+    --color-secondary: #DADDFA; /* lavender */
+    --color-accent: #6874E8; /* medium slate blue */
+    --color-foreground-primary: #242435;
+    --font-cal-sans: "Cal Sans", sans-serif;
+    --font-lexend-deca: "Lexend Deca", sans-serif;
+    --breakpoint-sm: 789px;
+    --breakpoint-md: 996px; 
+    --breakpoint-lg: 1280px;
+}
+
+.section-heading {
+    @apply font-cal-sans text-2xl sm:text-3xl ml-4 sm:ml-0 text-center
+}
+
+.menu-toggle {
+    @apply hover:scale-115 duration-100 cursor-pointer;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-accent);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

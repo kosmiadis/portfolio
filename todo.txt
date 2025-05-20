@@ -1,0 +1,3 @@
+1. Create image carousel for projects.
+
+(Restyle timeline)?
